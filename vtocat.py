@@ -184,6 +184,7 @@ rdprompt=str(input("Or any other key to use original voice recording:"))
 if rdprompt =='y':
     print("Background noise reduction is under processing...")
     reducenoise()
+    ratevoice()	
     s2t(voicerd)
 else:
     print("Keep going without noise reduction processing...")
